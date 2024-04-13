@@ -1,3 +1,10 @@
+# Ignore
 target
 compose.yaml
-/db
+/db/*
+/secrets/*
+
+# Allow
+!/db/.gitkeep
+!/secrets/.gitkeep
+
